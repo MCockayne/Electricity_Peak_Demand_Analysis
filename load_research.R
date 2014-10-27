@@ -22,4 +22,3 @@ s3d <-scatterplot3d(max_temp,min_temp, peak_demand, pch=16, highlight.3d=TRUE,
                     type="h")
 fit <- lm(peak_demand ~ max_temp+min_temp) 
 s3d$plane3d(fit)
-              
