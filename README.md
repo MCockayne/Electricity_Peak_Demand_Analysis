@@ -9,6 +9,6 @@ My goal is to develop tools in R that help in understanding the nature of Peak D
 
 #####Linear Model
 
-If we use linear regression to model peak demand as a function of maximum and minimum temperature we obtain the following 3D Scatter Plot. 
+If we use linear regression to model peak demand as a function of maximum and minimum temperatures we obtain the following 3D Scatter Plot. 
 
 ![Screenshot of Linear Model for Peak Demand](linear_model.png)
