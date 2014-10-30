@@ -1,0 +1,5 @@
+Historical_Peaks <- read.csv("~/Electricity_Peak_Demand_Analysis/Historical_Peaks.csv")
+View(Historical_Peaks)
+opar<- par(no.readonly=TRUE)
+par(pin=c(6,6))
+plot(Historical_Peaks$Annual_Peak_Demand~Historical_Peaks$Year,main="Historical Annual Peaks",xlab="Year",ylab="Megawatts",xlim=c(1977,2014),col="red",pch=17,cex=2,cex.lab=1.5,cex.main=1.5)
